@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UFO Animation</title>
+<style>
+  body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .ufo {
+    position: relative;
+    width: 200px;
+    height: 60px;
+    background: linear-gradient(to bottom, silver, gray);
+    border-radius: 50% 50% 0 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    animation: hover 3s infinite;
+  }
+
+  .ufo::before {
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(to bottom, silver, gray);
+    border-radius: 50%;
+  }
+
+  .light {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 80px;
+    background: radial-gradient(circle, rgba(255,255,255,0.5), transparent);
+    border-radius: 50%;
+    animation: pulsate 1.5s infinite;
+  }
+
+  @keyframes hover {
+    0%, 100% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(20px);
+    }
+  }
+
+  @keyframes pulsate {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="ufo">
+  <div class="light"></div>
+</div>
+
+</body>
+</html>
+
+    

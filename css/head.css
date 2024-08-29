@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.w-100{
+    width: 100%;
+}
+.w-1140{
+    width: 1140px;
+    margin: auto;
+    background-color: rgb(8, 8, 103);
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.w-33{
+    width: 33.33%;
+    /* background-color: rgb(14, 14, 120); */
+}
+.link .email a{
+    color: aliceblue;
+    font-size: large;
+}
+.link .verfy a{
+    color: aliceblue;
+    margin-left: 10px;
+    font-size: large;
+}
+.head h3{
+    color: aliceblue;
+    margin-left: 50px;
+}
+.just-c{
+    justify-content: center;
+}
+.align-e{
+    justify-content: end;
+}
+.logo h3{
+    color: aliceblue;
+}

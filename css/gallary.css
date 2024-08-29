@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration:none ;
+}
+.w-100{
+    width: 100%;
+}
+.w-1140{
+    width: 1140px;
+    margin: auto;
+}
+.w-33{
+    width: calc(33.33% - 20px);
+    box-shadow: 0 0 8px rgb(0 0 0/50%);
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+}
+.flex{
+       display: flex; 
+       flex-wrap: wrap;
+}
+.w-33 .video video{
+    width: 100%;
+    display: block;
+} 
+.text .heading h2{
+    padding: 5px;
+    color: blueviolet;
+}
+.social .btn a{
+    width: 15px;
+    background-color: rgb(16, 16, 112);
+    color: aliceblue;
+    border-radius: 5px;
+    /* border-top: 1px solid black; */
+    /* display: inline-block; */
+    padding: 12px 20px;
+}
+.just-s-between{
+    justify-content: space-between;
+}
+.align-i{
+    align-items: center;
+}
+.social{
+    padding: 15px;
+    border-top: 1px solid black;
+}
+.gap{
+    margin-top: 100px;
+}
+.social .star {
+    color: rgb(179, 179, 33);
+}
+.gap1{
+    margin-bottom: 100px;
+}
+.view .btn1 a{
+    background-color: cadetblue;
+    color: black;
+    width: 15px;
+    border-radius: 5px;
+    /* padding-top: 15px;*/
+    text-align: center;
+    font-size: larger;
+}
+.just-s-bitween{
+    justify-content: space-between;
+}
+.align{
+    align-items: center;
+}
+.view{
+    justify-content: space-between;
+}

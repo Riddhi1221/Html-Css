@@ -1,0 +1,22 @@
+h1{
+    font-size:xx-large larger;
+    font-weight: 100;
+    font-style: italic;
+    font-variant: small-caps;
+    
+}
+p{
+    font-size: x-large;
+    text-align: justify;
+    text-decoration: underline fuchsia;
+    text-transform: lowercase;
+    text-shadow: 0 0 10px teal;
+    color: darkcyan;
+    /* letter-spacing: 2px; */
+    word-spacing: 2px;
+    line-height: 20px;
+    
+}
+img{
+    border: 3px  solid khaki;
+}

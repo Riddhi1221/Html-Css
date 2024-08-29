@@ -1,0 +1,55 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+ul li{
+    list-style: none;
+    float: left;
+}
+a{
+    text-decoration: none;
+    /* float: left; */
+    margin: 10px;
+    color: aliceblue;
+}
+ul li a{
+    background-color: black;
+    width: 40px;
+    height: 30px;
+    /* float: left; */
+    display: block;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+ul li:hover > ul{
+    display: block;
+}
+ul ul{
+    display: none;
+}
+ul ul li{
+    float: none;
+    position: relative;
+    /* margin: 0; */
+}
+ul ul li a{
+    background-color: aqua;
+    color: rgb(5, 39, 102);
+}
+ul ul ul  {
+    left: 100%;
+    position: absolute;
+    top: 0;
+}
+ul ul ul li a{
+    background-color: chartreuse;
+    color: crimson;
+}
+ul ul ul ul {
+    top: 0;
+}
+ul ul ul ul li a{
+    background-color: blue;
+    color: rgb(247, 245, 249);
+}

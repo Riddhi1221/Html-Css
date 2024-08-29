@@ -1,0 +1,15 @@
+h1{
+    color: rgb(239, 233, 239);
+    text-align: center;
+    text-decoration: underline white;
+}
+p{
+    color: rgb(237, 239, 231);
+    text-shadow: 2px 2px 50px rgb(243, 236, 236);
+    font-size: x larger;
+}
+img{
+    box-shadow: 0 0 30px floralwhite;
+    margin-top: 20px;
+    margin: 20px;
+}

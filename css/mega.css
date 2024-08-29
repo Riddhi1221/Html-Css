@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.w-100{
+    width: 100%;
+}
+.w-1140{
+    width: 1140px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.w-20 img{
+    width: 100%;
+    display: block;
+}

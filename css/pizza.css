@@ -1,0 +1,13 @@
+h1{
+    color: purple;
+}
+p{
+    color: rgb(130, 165, 42);
+    text-shadow: 2px 2px 4px darkorange;
+    font-size: larger;
+}
+img{
+    box-shadow: 0 0 30px floralwhite;
+    margin-top: 20px;
+    margin: 20px;
+}

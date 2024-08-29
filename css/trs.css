@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.W-100{
+    width: 100%;
+}
+
+.W-1140{
+    width: 1140PX;
+}
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+}
+.w-33{
+    width: 33.33%;
+    background-color: blue;
+    overflow: hidden;
+    display: block;
+}
+.zi1 img{
+    width: 100%;
+    transition: 2s;
+    transform: scale(1);
+    display: block;
+}
+.zi1 img:hover{
+    width: 110;
+    transform: scale(1.5);
+}
+ .zi2 img{
+    width: 100%;
+    transition: 2s;
+    transform: scale(1);
+    display: block;
+}
+.zi2 img:hover{
+    width: 120;
+} 
+.main{
+    width: 800px;
+    height: 700px;
+    background-color: brown;
+}
+ .box{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    animation-name: demo;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out ;
+}
+@keyframes demo{
+    to{
+        background-color: aqua;
+    }
+    form{
+        background-color: blue;
+    }
+    0%{
+        top: 0;
+        left: 0;
+        transform: scale(1) rotate(0deg);
+    }
+    25%{
+        top: 300px;
+        left: 0px;
+        transform: scale(.5) rotate(360deg);
+    }
+    50%{
+        transform: scale(1) rotate(0deg);
+    }
+    75%{
+        transform: scale(.5) rotate(360deg);
+    }
+    100%{
+        transform: scale(.5) rotate(360deg);
+    }
+} 
